@@ -9,7 +9,7 @@ import ReviewListing from '../detail/review-listing';
 
 
 export default function Collection() {
-    const [selectedCategory, setSelectedCategory] = useState(["Burgers"]);
+    const [selectedCategory, setSelectedCategory] = useState([]);
     const products = getVisibleProducts(selectedCategory);
 
     // const onChangeCategoryHandler = (category, isChecked) => {
